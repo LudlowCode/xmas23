@@ -40,8 +40,16 @@ a{
 
 .row {
   max-width: 90rem;
-  border: 5px solid rgb(255, 157, 0);
+  border: 4px solid rgb(255, 157, 0);
   margin-inline: auto;
   padding: 0.5rem;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }/*# sourceMappingURL=style.css.map */
+
+.label{
+  position: relative;
+  top:2em;
+  left:2em;
+  font-size: x-large;
+  color: rgb(255, 199, 0);
+}

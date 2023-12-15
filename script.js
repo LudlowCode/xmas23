@@ -36,6 +36,10 @@ function updateItemStyleWithImageRatio(item) {
     addAnswerChecking(hashedAnswers);
   }
 
+  function makePrinty(){
+    document.getElementById("style").setAttribute("href","printy.css");
+  }
+
   function hash(str) {
     /* A hashing funtion is a one-way function that gives an apparently random hash from a string input,
      * but you can't work out the string input from the hash. That's why it's one-way.
